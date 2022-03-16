@@ -8,6 +8,7 @@ app.use(express.json())
 
 app.use(express.static(path.join(__dirname, "../public")))
 app.use(express.static(path.join(__dirname, "../photos")))
+app.use(express.static(path.join(__dirname, "../javascript")))
 
 const port = process.env.PORT || 4005;
 
