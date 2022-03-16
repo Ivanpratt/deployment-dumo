@@ -1,4 +1,39 @@
+body {
+    background-color: rgb(95, 183, 235);
+}
+
+
+
 h1 {
-    color: green;
+    text-align: center;
+    font-size:45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(6, 54, 6);
+}
+
+img {
+    float: left;
+    margin-left: 2.5%;
+    margin-top:0.5%;
+    margin-right: 2.5%;
+}
+
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 29px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+#games {
+    color:rgb(126, 61, 0);
+    font-weight: 600;
+    font-size: 33px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 2.5%;
+    text-align: center;
 }
 
